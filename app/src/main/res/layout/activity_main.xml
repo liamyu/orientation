@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="com.liam.orientation.MainActivity">
+
+  <RadioGroup
+    android:id="@+id/group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioButton
+      android:id="@+id/screen_orientation_unspecified"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="SCREEN_ORIENTATION_UNSPECIFIED"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_landscape"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_LANDSCAPE"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_portrait"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_PORTRAIT"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_user"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_USER"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_behind"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_BEHIND"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_sensor"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_SENSOR"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_nosensor"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_NOSENSOR"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_sensor_landscape"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_SENSOR_LANDSCAPE"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_sensor_portrait"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_SENSOR_PORTRAIT"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_reverse_landscape"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_REVERSE_LANDSCAPE"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_reverse_portrait"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_REVERSE_PORTRAIT"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_full_sensor"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_FULL_SENSOR"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_user_landscape"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_USER_LANDSCAPE"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_user_portrait"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_USER_PORTRAIT"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_full_user"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_FULL_USER"/>
+
+    <RadioButton
+      android:id="@+id/screen_orientation_locked"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="SCREEN_ORIENTATION_LOCKED"/>
+
+  </RadioGroup>
+
+</ScrollView>
